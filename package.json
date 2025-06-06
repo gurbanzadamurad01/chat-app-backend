@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "build:full": "npm install --prefix ../frontend && npm run build --prefix ../frontend",
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
