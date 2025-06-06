@@ -9,6 +9,7 @@ export const environmentsConfig = {
       cldName: process.env.CLOUDINARY_NAME,
       cldKey: process.env.CLOUDINARY_API_KEY,
       cldSecret: process.env.CLOUDINARY_SECRET_KEY,
-      UILocal: process.env.NODE_UI_LOCAL
+      UILocal: process.env.NODE_UI_LOCAL,
+      backend: process.env.NODE_BACKEND,
    },
 }
